@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 jobs:
   build:
 
-    runs-on: windows-2022
+    runs-on: windows-2019
     timeout-minutes: 360 # 6 hours
     
     steps:
